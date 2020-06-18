@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,AAAA,CAED,MAAM,CAAE,KAAK,CACb,WAAW,CAAE,IAAI,CACjB,YAAY,CAAE,IAAI,CAClB,UAAU,CACV,iEAEsB,CACtB,sBAAsB,CACvB,iBAAiB,CAAE,SAAS,CAC5B,mBAAmB,CAAE,MAAM,CAE3B,gBAAgB,CAAE,cAAc,CAChC,eAAe,CAAE,KAAK,CAWxB,AATG,AAAD,WAAO,AAAA,CACF,OAAO,CAAE,KAAK,CACd,UAAU,CAAE,MAAM,CAClB,WAAW,CAAE,KAAK,CAClB,cAAc,CAAE,KAAK,CACrB,KAAK,CAAE,KAAK,CACf",
+    "sources": [
+        "../../sass/studio.scss"
+    ],
+    "names": [],
+    "file": "studio.min.css"
+}

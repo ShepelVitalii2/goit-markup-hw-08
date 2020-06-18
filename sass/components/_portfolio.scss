@@ -1,0 +1,123 @@
+.main{
+    background-color: $--nav-bg-decoration;
+
+    &__container{
+        padding-top: 93px;
+        padding-bottom: 94px;
+    }
+    
+    &__nav{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+        margin-bottom: 50px;
+    }
+    
+    &__nav-item{
+        margin-right: 8px;
+    }   
+}
+
+.project__list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project__tech-text{
+    
+    padding: 63px 24px;
+    color: $--title-text-decoration;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: 0.03em;
+}
+
+.project__name{
+    margin-bottom: 4px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: $--primary-text-decoration;
+}
+
+.project__descriptoin{
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: $--secondary-text-color;
+}
+
+.project__card{
+    
+    border-right: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    border-left: 1px solid #eeeeee;
+    background-color: #ffffff;
+    padding: 20px 24px;
+    }
+
+.project__item{
+    position: relative;
+    width: calc((100% - 60px) / 3);
+
+    &:hover::after{
+        opacity: 1;
+    }
+    
+    &:not(:nth-child(3n)){
+        margin-right: 30px;
+    }
+    
+    &:not(:nth-last-child(-n + 3)) {
+        margin-bottom: 30px;
+    }
+    
+    &:hover{
+        box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.16), 
+        0px 4px 4px rgba(0, 0, 0, 0.06), 
+        0px 1px 1px rgba(0, 0, 0, 0.12);
+    }
+
+    &:hover .overlay,
+    &:focus .overlay {
+    opacity: 0.9;
+    
+    transform: translateY(0%);
+
+    color: $--title-text-decoration;
+  }
+}
+
+.card-thumb {
+    position: relative;
+    overflow: hidden;
+  }
+
+.overlay {
+    display: inline-block;
+    content: "";
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(33, 150, 243);
+  
+    opacity: 0;
+    transform: translateY(100%);
+  
+    transition: $slowMo-bezier;
+}
+
+.border-box__portfolio{
+    // outline: 2px solid tomato;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

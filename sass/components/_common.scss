@@ -1,0 +1,44 @@
+a {
+    color: $--primary-text-decoration;
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+    
+body {
+    background-color: $--nav-bg-decoration;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+textarea{
+    resize: none;
+}
+
+.border-box{
+    
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
