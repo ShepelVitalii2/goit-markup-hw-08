@@ -1425,6 +1425,7 @@ textarea {
 
 .main {
   background-color: #FFFFFF;
+  border-top: 1px solid #ECECEC;
 }
 
 .main__container {
