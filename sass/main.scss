@@ -1,7 +1,8 @@
-@import "./components/vars";
-@import "./utils/visually-hidden";
-@import "./utils/normalize";
-@import "./components/fonts";
+@import "./utils/vars";
+@import "./utils/_mixin&placeholder";
+@import "./base/visually-hidden";
+@import "./base/normalize";
+@import "./base/fonts";
 @import "./components/common";
 @import "./components/button";
 @import "./components/header";

@@ -11,17 +11,25 @@
 
 .page-header{
 
+    @include displayAlignI(flex, center);
+
     display: flex;
     align-items: center;  
 
     &__nav{
-        display: flex;
-        align-items: center;   
+
+        @include displayAlignI(flex, center);
+
+        // display: flex;
+        // align-items: center;   
     }
 
     &__nav-list{
-        display: flex;
-        align-items: center; 
+
+        @include displayAlignI(flex, center);
+
+        // display: flex;
+        // align-items: center; 
     }
 
     &__logo{
@@ -38,8 +46,12 @@
     }
 
     &__contacts{
+
+        @include displayAlignI(flex, center);
+
         display: flex;
         align-items: center;
+
         margin-left: auto;
 
         font-weight: 500;
@@ -53,8 +65,11 @@
     }
 
     &__contacts-link{
-        display: inline-flex;
-        align-items: center;
+
+        @include displayAlignI(inline-flex, center);
+
+        // display: inline-flex;
+        // align-items: center;
     
         color: $--secondary-text-color;
     }

@@ -5,9 +5,12 @@
     background-color: $--footer-bg-decoration;
     
     &__container{
-        display: flex;
-        align-items: flex-start;
-        justify-content: space-between;
+
+        @include centeredFlex(flex, flex-start, space-between);
+
+        // display: flex;
+        // align-items: flex-start;
+        // justify-content: space-between;
         
         padding-bottom: 60px;
     }
@@ -87,8 +90,11 @@
 }
 
 .form-mail{
-    display: inline-block;
-    align-items: center;
+
+    @include displayAlignI(inline-block, center);
+
+    // display: inline-block;
+    // align-items: center;
     
     &__input{
         width: 360px; 
@@ -136,10 +142,12 @@
 }
 
 .social-list__item{
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    
+    @include centeredFlex(flex, center, center);
+
+    // display: flex;
+    // align-items: center;
+    // justify-content: center;
     border-radius: 50%;
     width: 44px;
     height: 44px;

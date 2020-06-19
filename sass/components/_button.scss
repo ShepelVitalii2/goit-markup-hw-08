@@ -19,8 +19,11 @@
 }
 
 .hero__button{
-    display: inline-flex;
-    align-items: center;
+
+    @include displayAlignI(inline-flex, center);
+
+    // display: inline-flex;
+    // align-items: center;
 
     padding: 10px 32px;
     border-radius: 4px;
@@ -36,8 +39,11 @@
 }
 
 .footer-button{
-    display: inline-flex;
-    align-items: center;
+
+    @include displayAlignI(inline-flex, center);
+
+    // display: inline-flex;
+    // align-items: center;
 
     vertical-align: middle;
     padding: 8px 25px;
