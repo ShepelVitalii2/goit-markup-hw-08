@@ -1,3 +1,9 @@
+.button, .hero__button, .form__button {
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type='checkbox'].visually-hidden,
 input[type='radio'].visually-hidden {
@@ -821,9 +827,6 @@ textarea {
 .button {
   text-align: center;
   font-weight: 900;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
   color: #212121;
   background-color: #F5F4FA;
   border: 2px solid #F5F4FA;
@@ -847,11 +850,7 @@ textarea {
   padding: 10px 32px;
   border-radius: 4px;
   border: 0px;
-  min-width: 200px;
   font-weight: 900;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
   color: #FFFFFF;
   background-color: #2196F3;
 }
@@ -864,8 +863,7 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   vertical-align: middle;
-  padding: 8px 25px;
-  border-radius: 4px;
+  padding: 10px 27px;
   color: #FFFFFF;
   background-color: #2196F3;
   border-color: #2196F3;
@@ -906,9 +904,6 @@ textarea {
   width: 180px;
   height: 45px;
   font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
   color: #FFFFFF;
   background-color: #2196F3;
   border: 0px;
