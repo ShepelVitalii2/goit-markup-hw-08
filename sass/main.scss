@@ -1,6 +1,7 @@
 @import "./utils/vars";
 @import "./utils/_mixins";
 @import "./utils/placeholders";
+
 @import "./helpers/visually-hidden";
 @import "./helpers/normalize";
 @import "./helpers/fonts";
@@ -16,5 +17,4 @@
 @import "./components/studio/customers";
 
 @import "./components/portfolio";
-@import "./components/footer";
-
+@import "./components/footer"; 

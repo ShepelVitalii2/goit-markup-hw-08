@@ -1,2 +1,0 @@
-.visually-hidden:not(:focus):not(:active),input[type='checkbox'].visually-hidden,input[type='radio'].visually-hidden{position:absolute;width:1px;height:1px;margin:-1px;border:0;padding:0;white-space:nowrap;-webkit-clip-path:inset(100%);clip-path:inset(100%);clip:rect(0 0 0 0);overflow:hidden}.backdrop.is-hidden{opacity:0;pointer-events:none}.modal.is-hidden{-webkit-transform:translate(-50%, -50%) scale(1.1);transform:translate(-50%, -50%) scale(1.1)}
-/*# sourceMappingURL=visually-hidden.min.css.map */
