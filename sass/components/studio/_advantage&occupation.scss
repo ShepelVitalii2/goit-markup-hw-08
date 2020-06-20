@@ -1,0 +1,99 @@
+.advantage {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
+
+    &__item{
+        width: calc((100% - 90px) / 4);
+    }
+
+    &__icon-bg{
+
+        @include centeredFlex(flex, center, center);
+
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+
+        margin-bottom: 30px;
+        height: 120px;
+        border-radius: 4px;
+        
+        background-color: $--team-bg-decoration;
+    }
+
+    .advantage--icon{
+        width: 70px;
+        height: 70px;
+    }
+
+    &__item:not(:last-child){
+        margin-right: 30px;
+    }
+
+    &__header{
+    
+        margin-bottom: 10px;
+        font-size: 14px;
+        line-height: 1.14;
+        text-transform: uppercase;  
+    }
+
+    &__text{
+        display: block;
+        
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+
+        color: $--secondary-text-color;
+    }
+}
+
+.advantage-list{
+    display: flex;
+}
+
+.occupation{
+    padding-top: 94px;
+    padding-bottom: 94px;
+
+    &-header{
+        margin-bottom: 50px;
+        display: block;
+    }
+
+    &__list{
+        display: flex;
+    }
+
+    &__item{
+        position: relative;
+    }
+
+    &__item:not(:last-child)  {
+        margin-right: 30px;
+    }
+
+    &__text{
+        position: absolute;
+        
+        bottom: 0;
+        right: 0;
+        text-align: center;
+        padding-top: 27px;
+        padding-bottom: 27px;
+        width: 100%;
+    
+        background-color: rgba(47, 48, 58, 0.8);
+    }
+
+    .occupation__link{
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.14;
+        text-align: center;
+        text-transform: uppercase;
+        color: $--title-text-decoration;
+    }
+}

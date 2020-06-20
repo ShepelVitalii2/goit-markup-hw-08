@@ -681,103 +681,6 @@ textarea {
   margin-right: auto;
 }
 
-.button {
-  text-align: center;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: #212121;
-  background-color: #F5F4FA;
-  border: 2px solid #F5F4FA;
-}
-
-.button:hover, .button:focus {
-  color: #212121;
-  background-color: #2196F3;
-  border-color: #2196F3;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hero__button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding: 10px 32px;
-  border-radius: 4px;
-  border: 0px;
-  min-width: 200px;
-  font-weight: 900;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-  background-color: #2196F3;
-}
-
-.footer-button {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  vertical-align: middle;
-  padding: 8px 25px;
-  border-radius: 4px;
-  color: #FFFFFF;
-  background-color: #2196F3;
-  border-color: #2196F3;
-}
-
-.footer-button:hover {
-  color: #212121;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.button-secondary {
-  display: inline-block;
-  vertical-align: middle;
-  padding: 6px 22px;
-  min-width: 73px;
-  color: #212121;
-  background-color: #F5F4FA;
-  border: 2px solid #F5F4FA;
-  border-radius: 4px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-}
-
-.button-secondary:hover, .button-secondary:focus {
-  color: #FFFFFF;
-  background-color: #2196F3;
-  border-color: #2196F3;
-  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.form__button {
-  text-align: center;
-  margin-left: 25%;
-  border-radius: 4px;
-  width: 180px;
-  height: 45px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.9;
-  letter-spacing: 0.06em;
-  color: #FFFFFF;
-  background-color: #2196F3;
-  border: 0px;
-  cursor: pointer;
-}
-
 .header {
   font-size: 36px;
   line-height: 1.17;
@@ -913,6 +816,103 @@ textarea {
   height: 4px;
   border-radius: 4px;
   background-color: #2196F3;
+}
+
+.button {
+  text-align: center;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #212121;
+  background-color: #F5F4FA;
+  border: 2px solid #F5F4FA;
+}
+
+.button:hover, .button:focus {
+  color: #212121;
+  background-color: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.hero__button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 32px;
+  border-radius: 4px;
+  border: 0px;
+  min-width: 200px;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background-color: #2196F3;
+}
+
+.footer-button {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  vertical-align: middle;
+  padding: 8px 25px;
+  border-radius: 4px;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border-color: #2196F3;
+}
+
+.footer-button:hover {
+  color: #212121;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-secondary {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 6px 22px;
+  min-width: 73px;
+  color: #212121;
+  background-color: #F5F4FA;
+  border: 2px solid #F5F4FA;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
+.button-secondary:hover, .button-secondary:focus {
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border-color: #2196F3;
+  -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form__button {
+  text-align: center;
+  margin-left: 25%;
+  border-radius: 4px;
+  width: 180px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
+  background-color: #2196F3;
+  border: 0px;
+  cursor: pointer;
 }
 
 .hero {

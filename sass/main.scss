@@ -1,12 +1,20 @@
 @import "./utils/vars";
-@import "./utils/_mixin&placeholder";
-@import "./base/visually-hidden";
-@import "./base/normalize";
-@import "./base/fonts";
+@import "./utils/_mixins";
+@import "./utils/placeholders";
+@import "./helpers/visually-hidden";
+@import "./helpers/normalize";
+@import "./helpers/fonts";
+
 @import "./components/common";
-@import "./components/button";
 @import "./components/header";
-@import "./components/studio";
+@import "./components/button";
+
+@import "./components/studio/hero";
+@import "./components/studio/form";
+@import "./components/studio/advantage&occupation";
+@import "./components/studio/team";
+@import "./components/studio/customers";
+
 @import "./components/portfolio";
 @import "./components/footer";
 
