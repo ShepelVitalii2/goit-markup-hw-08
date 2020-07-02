@@ -19,6 +19,10 @@ body {
     font-weight: 400;
 }
 
+body.modal-open{
+    overflow: hidden;
+}
+
 h1,h2,h3,p{
     margin: 0px;
     padding: 0px;
@@ -26,7 +30,7 @@ h1,h2,h3,p{
 
 img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: auto;
 }
 
@@ -36,9 +40,21 @@ textarea{
 
 .border-box{
     
-    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
+
+    @media screen and (min-width: 480px){
+        width: 450px;
+    }
+
+    @media screen and (min-width: 768px){
+        width: 737px;
+    }
+
+    @media screen and (min-width: 1200px){
+        width: 1170px;
+        
+    }
 }
