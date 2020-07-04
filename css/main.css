@@ -1093,7 +1093,6 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
   vertical-align: middle;
-  margin-top: 33px;
   padding: 10px 27px;
   border-radius: 4px;
   color: #FFFFFF;
@@ -1105,6 +1104,13 @@ textarea {
   color: #212121;
   -webkit-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (max-width: 1199px) {
+  .footer-button {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .button-secondary {
@@ -2097,18 +2103,15 @@ textarea {
 @media screen and (min-width: 1200px) {
   .page-footer__container {
     width: 1170px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
   }
 }
 
@@ -2166,6 +2169,12 @@ textarea {
           flex-direction: column;
 }
 
+@media screen and (max-width: 767px) {
+  .page-footer__appeal-container {
+    margin-bottom: 60px;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .page-footer__appeal-container {
     margin-right: 94px;
@@ -2180,6 +2189,12 @@ textarea {
   line-height: 1.14;
   letter-spacing: 0.03em;
   color: #FFFFFF;
+}
+
+@media screen and (min-width: 1200px) {
+  .page-footer__appeal {
+    padding-top: 5px;
+  }
 }
 
 .page-footer__social-links {
@@ -2212,10 +2227,24 @@ textarea {
 }
 
 .form-mail {
-  display: block;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .form-mail {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+  }
 }
 
 .form-mail__input {
@@ -2250,6 +2279,12 @@ textarea {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.page-footer__form {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
 .footer__icon-send {
   margin-left: 10px;
   fill: currentColor;
@@ -2266,7 +2301,6 @@ textarea {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin-bottom: 60px;
 }
 
 .social-list .social-pics {

@@ -21,10 +21,13 @@
 
         @media screen and (min-width: 1200px ){
             width: 1170px;
-            align-items: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+
             
 
-            @include centeredFlex(flex, flex-start, space-between);  
+            // @include centeredFlex(flex, flex-start, space-between);  
         }       
         
     }
@@ -80,6 +83,10 @@
         display: flex;
         flex-direction: column;
 
+        @media screen and(max-width: 767px){
+            margin-bottom: 60px;  
+        }
+
         @media screen and(min-width: 1200px){
             margin-right: 94px;  
         }
@@ -96,6 +103,10 @@
         letter-spacing: 0.03em;
         
         color: $--title-text-decoration;
+
+        @media screen and(min-width: 1200px){
+            padding-top: 5px;  
+        }
     }
 
     &__social-links{
@@ -127,8 +138,16 @@
 
 .form-mail{
 
-    display: block;
-    align-items: center;
+    
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+
+    @media screen and (max-width:1199px) {
+        display: inline-flex;
+     }
+
+    
     
     &__input{
         width: 358px; 
@@ -151,6 +170,11 @@
     }
 }
 
+.page-footer__form{
+    
+    align-items: baseline;
+}
+
 .footer__icon-send{
     margin-left: 10px;
     fill: currentColor;
@@ -164,7 +188,7 @@
     display: flex;
     justify-content: center;
 
-    margin-bottom: 60px;
+    // margin-bottom: 60px;
 
     & .social-pics{
         width: calc(100%-120px) / 4;
